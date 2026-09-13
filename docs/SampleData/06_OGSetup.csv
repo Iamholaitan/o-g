@@ -1,0 +1,20 @@
+Field,Value
+Primary Key,DEFAULT
+Default Royalty Rate %,10
+Production Tax Rate %,5
+Default BOE UOM Code,BOE
+Accounting Method,Successful Efforts
+Field/Block Dimension Code,FIELD
+Well Dimension Code,WELL
+Reservoir Dimension Code,RESERVOIR
+Cost Center Dimension Code,COST CENTER
+JV Partner Dimension Code,JV PARTNER
+Depletion Expense Account,61100
+Accumulated Depletion Account,29100
+Royalty Expense Account,62100
+Royalty Payable Account,29901
+JV Receivable Account,13100
+Exploration Expense Account,63100
+Exploration Costs Account,19100
+Gen. Journal Template Name,GENERAL
+Item Journal Template Name,ITEM

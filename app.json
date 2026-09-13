@@ -1,0 +1,32 @@
+{
+  "id": "b3f0a1e2-4c5d-4e6f-8a9b-0c1d2e3f4a5b",
+  "name": "Oil & Gas Production Accounting",
+  "publisher": "FMATecH Consulting",
+  "version": "1.0.16.0",
+  "brief": "Upstream oil & gas production accounting: daily production capture, Unit-of-Production depletion, royalty and JV accounting.",
+  "description": "Custom AL extension for Microsoft Dynamics 365 Business Central supporting daily well production capture, BOE conversion via standard Item Units of Measure, Item Journal integration, Unit-of-Production depletion (Successful Efforts / Full Cost), cash and in-kind royalty settlement, JV cost allocation, dedicated Role Centers and standard production/reserve/reporting. Implements FRD/TRD v2.0 (September 2026).",
+  "privacyStatement": "https://www.fmatech-consulting.example/privacy",
+  "EULA": "https://www.fmatech-consulting.example/eula",
+  "help": "https://www.fmatech-consulting.example/help",
+  "url": "https://www.fmatech-consulting.example",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "24.0.0.0",
+  "idRanges": [
+    {
+      "from": 70000,
+      "to": 75000
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "16.0",
+  "features": [
+    "NoImplicitWith"
+  ],
+  "target": "Cloud"
+}

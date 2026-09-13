@@ -1,0 +1,735 @@
+{
+  "DateRange.Table.al": {
+    "1": {
+      "name": "Primary Key",
+      "type": "Code[10]",
+      "class": "Normal"
+    },
+    "2": {
+      "name": "From Date",
+      "type": "Date",
+      "class": "Normal"
+    },
+    "3": {
+      "name": "To Date",
+      "type": "Date",
+      "class": "Normal"
+    }
+  },
+  "DepletionWorksheet.Table.al": {
+    "1": {
+      "name": "Entry No.",
+      "type": "Integer",
+      "class": "Normal"
+    },
+    "2": {
+      "name": "Posting Date",
+      "type": "Date",
+      "class": "Normal"
+    },
+    "3": {
+      "name": "Reservoir Code",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "4": {
+      "name": "Fixed Asset No.",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "5": {
+      "name": "Depreciation Book Code",
+      "type": "Code[10]",
+      "class": "Normal"
+    },
+    "6": {
+      "name": "Total Capitalised Cost",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "7": {
+      "name": "Accumulated Depletion",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "8": {
+      "name": "Remaining NBV",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "9": {
+      "name": "Remaining Reserves BOE",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "10": {
+      "name": "Period Production BOE",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "11": {
+      "name": "Depletion Rate per BOE",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "12": {
+      "name": "Depletion Amount",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "13": {
+      "name": "Cost Center Code",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "14": {
+      "name": "Posted",
+      "type": "Boolean",
+      "class": "Normal"
+    },
+    "15": {
+      "name": "Journal Batch Name",
+      "type": "Code[10]",
+      "class": "Normal"
+    },
+    "16": {
+      "name": "Document No.",
+      "type": "Code[20]",
+      "class": "Normal"
+    }
+  },
+  "ExplorationWriteoff.Table.al": {
+    "1": {
+      "name": "Document No.",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "2": {
+      "name": "Posting Date",
+      "type": "Date",
+      "class": "Normal"
+    },
+    "3": {
+      "name": "Reservoir Code",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "4": {
+      "name": "Amount",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "5": {
+      "name": "Posted",
+      "type": "Boolean",
+      "class": "Normal"
+    },
+    "6": {
+      "name": "Journal Batch Name",
+      "type": "Code[10]",
+      "class": "Normal"
+    }
+  },
+  "JVCostAllocationHeader.Table.al": {
+    "1": {
+      "name": "Document No.",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "2": {
+      "name": "Posting Date",
+      "type": "Date",
+      "class": "Normal"
+    },
+    "3": {
+      "name": "Field/Block Code",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "4": {
+      "name": "Description",
+      "type": "Text[100]",
+      "class": "Normal"
+    },
+    "5": {
+      "name": "Total Amount",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "6": {
+      "name": "Posted",
+      "type": "Boolean",
+      "class": "Normal"
+    },
+    "7": {
+      "name": "Journal Batch Name",
+      "type": "Code[10]",
+      "class": "Normal"
+    }
+  },
+  "JVCostAllocationLine.Table.al": {
+    "1": {
+      "name": "Document No.",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "2": {
+      "name": "Line No.",
+      "type": "Integer",
+      "class": "Normal"
+    },
+    "3": {
+      "name": "G/L Account No.",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "4": {
+      "name": "Account Name",
+      "type": "Text[100]",
+      "class": "Normal"
+    },
+    "5": {
+      "name": "Amount",
+      "type": "Decimal",
+      "class": "Normal"
+    }
+  },
+  "JVPartner.Table.al": {
+    "1": {
+      "name": "Partner Code",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "2": {
+      "name": "Name",
+      "type": "Text[100]",
+      "class": "Normal"
+    },
+    "3": {
+      "name": "Working Interest %",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "4": {
+      "name": "JV Receivable Account",
+      "type": "Code[20]",
+      "class": "Normal"
+    }
+  },
+  "OGSetup.Table.al": {
+    "1": {
+      "name": "Primary Key",
+      "type": "Code[10]",
+      "class": "Normal"
+    },
+    "2": {
+      "name": "Default Royalty Rate %",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "3": {
+      "name": "Production Tax Rate %",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "4": {
+      "name": "Default BOE UOM Code",
+      "type": "Code[10]",
+      "class": "Normal"
+    },
+    "5": {
+      "name": "Accounting Method",
+      "type": "Option",
+      "class": "Normal"
+    },
+    "6": {
+      "name": "Field/Block Dimension Code",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "7": {
+      "name": "Well Dimension Code",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "8": {
+      "name": "Reservoir Dimension Code",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "9": {
+      "name": "Cost Center Dimension Code",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "10": {
+      "name": "JV Partner Dimension Code",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "11": {
+      "name": "Depletion Expense Account",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "12": {
+      "name": "Royalty Expense Account",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "13": {
+      "name": "Royalty Payable Account",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "14": {
+      "name": "JV Receivable Account",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "15": {
+      "name": "Exploration Expense Account",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "16": {
+      "name": "Exploration Costs Account",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "17": {
+      "name": "Accumulated Depletion Account",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "18": {
+      "name": "Gen. Journal Template Name",
+      "type": "Code[10]",
+      "class": "Normal"
+    },
+    "19": {
+      "name": "Item Journal Template Name",
+      "type": "Code[10]",
+      "class": "Normal"
+    },
+    "20": {
+      "name": "BS&W Gen. Bus. Posting Group",
+      "type": "Code[20]",
+      "class": "Normal"
+    }
+  },
+  "ProductionEntryHeader.Table.al": {
+    "1": {
+      "name": "Document No.",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "2": {
+      "name": "Production Date",
+      "type": "Date",
+      "class": "Normal"
+    },
+    "3": {
+      "name": "Reservoir Code",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "4": {
+      "name": "Field/Block Code",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "5": {
+      "name": "Well Code",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "6": {
+      "name": "Total BOE",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "7": {
+      "name": "Posted",
+      "type": "Boolean",
+      "class": "Normal"
+    },
+    "8": {
+      "name": "Item Journal Batch Name",
+      "type": "Code[10]",
+      "class": "Normal"
+    },
+    "9": {
+      "name": "Item Journal Template Name",
+      "type": "Code[10]",
+      "class": "Normal"
+    },
+    "10": {
+      "name": "Cost Center Code",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "11": {
+      "name": "Dimension Set ID",
+      "type": "Integer",
+      "class": "Normal"
+    },
+    "12": {
+      "name": "Calculated BOE",
+      "type": "Decimal",
+      "class": "FlowField"
+    }
+  },
+  "ProductionEntryLine.Table.al": {
+    "1": {
+      "name": "Document No.",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "2": {
+      "name": "Line No.",
+      "type": "Integer",
+      "class": "Normal"
+    },
+    "3": {
+      "name": "Item No.",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "4": {
+      "name": "Item Description",
+      "type": "Text[100]",
+      "class": "Normal"
+    },
+    "5": {
+      "name": "Quantity",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "6": {
+      "name": "Unit of Measure Code",
+      "type": "Code[10]",
+      "class": "Normal"
+    },
+    "7": {
+      "name": "BS&W %",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "8": {
+      "name": "Net Quantity",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "9": {
+      "name": "BOE Quantity",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "10": {
+      "name": "Location Code",
+      "type": "Code[10]",
+      "class": "Normal"
+    }
+  },
+  "ReserveRevisionHistory.Table.al": {
+    "1": {
+      "name": "Entry No.",
+      "type": "Integer",
+      "class": "Normal"
+    },
+    "2": {
+      "name": "Reservoir Code",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "3": {
+      "name": "Revision Date",
+      "type": "Date",
+      "class": "Normal"
+    },
+    "4": {
+      "name": "Previous Reserves (BOE)",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "5": {
+      "name": "Revised Reserves (BOE)",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "6": {
+      "name": "Estimation Basis",
+      "type": "Text[250]",
+      "class": "Normal"
+    },
+    "7": {
+      "name": "Prepared By",
+      "type": "Text[100]",
+      "class": "Normal"
+    }
+  },
+  "Reservoir.Table.al": {
+    "1": {
+      "name": "Reservoir Code",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "2": {
+      "name": "Description",
+      "type": "Text[100]",
+      "class": "Normal"
+    },
+    "3": {
+      "name": "Field/Block Code",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "4": {
+      "name": "Well Code",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "5": {
+      "name": "Status",
+      "type": "Option",
+      "class": "Normal"
+    },
+    "6": {
+      "name": "Original Oil In Place (OOIP)",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "7": {
+      "name": "Proved Reserves (1P)",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "8": {
+      "name": "Probable Reserves (2P)",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "9": {
+      "name": "Possible Reserves (3P)",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "10": {
+      "name": "Estimated By",
+      "type": "Text[100]",
+      "class": "Normal"
+    },
+    "11": {
+      "name": "Estimation Method",
+      "type": "Text[250]",
+      "class": "Normal"
+    },
+    "12": {
+      "name": "Reserve Estimate Date",
+      "type": "Date",
+      "class": "Normal"
+    },
+    "13": {
+      "name": "Cumulative Production BOE",
+      "type": "Decimal",
+      "class": "FlowField"
+    },
+    "14": {
+      "name": "Remaining Reserves BOE",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "15": {
+      "name": "Recovery Factor %",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "16": {
+      "name": "Fixed Asset No.",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "17": {
+      "name": "Depreciation Book Code",
+      "type": "Code[10]",
+      "class": "Normal"
+    },
+    "18": {
+      "name": "Total Capitalised Cost",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "19": {
+      "name": "Accumulated Depletion",
+      "type": "Decimal",
+      "class": "FlowField"
+    },
+    "20": {
+      "name": "Depletion Rate per BOE",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "21": {
+      "name": "Cost Center Code",
+      "type": "Code[20]",
+      "class": "Normal"
+    }
+  },
+  "ReservoirProductSetup.Table.al": {
+    "1": {
+      "name": "Reservoir Code",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "2": {
+      "name": "Item No.",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "3": {
+      "name": "Default Unit of Measure Code",
+      "type": "Code[10]",
+      "class": "Normal"
+    },
+    "4": {
+      "name": "Location Code",
+      "type": "Code[10]",
+      "class": "Normal"
+    },
+    "5": {
+      "name": "Blocked",
+      "type": "Boolean",
+      "class": "Normal"
+    },
+    "6": {
+      "name": "BS&W Applicable",
+      "type": "Boolean",
+      "class": "Normal"
+    }
+  },
+  "RoyaltyTerm.Table.al": {
+    "1": {
+      "name": "Field/Block Code",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "2": {
+      "name": "Description",
+      "type": "Text[100]",
+      "class": "Normal"
+    },
+    "3": {
+      "name": "Royalty Rate %",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "4": {
+      "name": "Royalty Basis",
+      "type": "Option",
+      "class": "Normal"
+    },
+    "5": {
+      "name": "Settlement Method",
+      "type": "Option",
+      "class": "Normal"
+    },
+    "6": {
+      "name": "Royalty Expense Account",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "7": {
+      "name": "Royalty Payable Account",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "8": {
+      "name": "Unit Price",
+      "type": "Decimal",
+      "class": "Normal"
+    }
+  },
+  "RoyaltyWorksheet.Table.al": {
+    "1": {
+      "name": "Entry No.",
+      "type": "Integer",
+      "class": "Normal"
+    },
+    "2": {
+      "name": "Posting Date",
+      "type": "Date",
+      "class": "Normal"
+    },
+    "3": {
+      "name": "Field/Block Code",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "4": {
+      "name": "Reservoir Code",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "5": {
+      "name": "Item No.",
+      "type": "Code[20]",
+      "class": "Normal"
+    },
+    "6": {
+      "name": "Item Description",
+      "type": "Text[100]",
+      "class": "Normal"
+    },
+    "7": {
+      "name": "Unit of Measure Code",
+      "type": "Code[10]",
+      "class": "Normal"
+    },
+    "8": {
+      "name": "Gross Volume",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "9": {
+      "name": "Royalty Rate %",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "10": {
+      "name": "Royalty Volume",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "11": {
+      "name": "Settlement Method",
+      "type": "Option",
+      "class": "Normal"
+    },
+    "12": {
+      "name": "Unit Price",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "13": {
+      "name": "Royalty Amount",
+      "type": "Decimal",
+      "class": "Normal"
+    },
+    "14": {
+      "name": "Location Code",
+      "type": "Code[10]",
+      "class": "Normal"
+    },
+    "15": {
+      "name": "Posted",
+      "type": "Boolean",
+      "class": "Normal"
+    },
+    "16": {
+      "name": "Journal Batch Name",
+      "type": "Code[10]",
+      "class": "Normal"
+    }
+  }
+}

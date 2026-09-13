@@ -1,0 +1,15 @@
+# AL compiler artifacts
+*.app
+*.app.lock
+*.app.json
+
+# Tooling
+.vscode/*.tmp
+
+# NuGet packages
+.packages/
+.netpackages/
+
+# OS
+Thumbs.db
+.DS_Store

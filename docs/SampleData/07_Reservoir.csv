@@ -1,0 +1,3 @@
+Reservoir Code,Description,Field/Block Code,Well Code,Status,Original Oil In Place (OOIP),Proved Reserves (1P),Probable Reserves (2P),Possible Reserves (3P),Estimated By,Estimation Method,Reserve Estimate Date,Total Capitalised Cost,Cost Center Code
+RES-01,Reservoir A (Light Oil),FIELD-01,W-001,Producing,12000000,1800000,300000,150000,E&P Reservoir Team,Decline curve + material balance,2026-09-01,25000000,CC-100
+RES-02,Reservoir B (Gas),FIELD-02,G-001,Producing,20000000,2400000,400000,200000,E&P Reservoir Team,Volumetric + P/Z,2026-09-01,12000000,CC-200

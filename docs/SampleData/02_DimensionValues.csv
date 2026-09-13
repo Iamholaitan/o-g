@@ -1,0 +1,12 @@
+Dimension Code,Code,Name
+FIELD,FIELD-01,West Field
+FIELD,FIELD-02,East Field
+WELL,W-001,Well W-001 (Producer)
+WELL,W-002,Well W-002 (Producer)
+WELL,G-001,Gas Well G-001
+RESERVOIR,RES-01,Reservoir A (Light Oil)
+RESERVOIR,RES-02,Reservoir B (Gas)
+COST CENTER,CC-100,Operations Cost Center
+COST CENTER,CC-200,Gas Processing
+JV PARTNER,PTN-02,Partner Two Ltd
+JV PARTNER,PTN-03,Partner Three Ltd

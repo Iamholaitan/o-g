@@ -1,0 +1,265 @@
+{
+  "kind": "static source/schema checks (not runtime tests)",
+  "files": 66,
+  "numeric_objects": 64,
+  "passed": 64,
+  "total": 64,
+  "checks": [
+    {
+      "check": "Manifest version 1.0.12.0",
+      "pass": true
+    },
+    {
+      "check": "BC 26 / runtime 16 / NoImplicitWith",
+      "pass": true
+    },
+    {
+      "check": "Every existing table and field retains ID, name, type and class",
+      "pass": true
+    },
+    {
+      "check": "Only the method catalogue table added; no prior tables removed",
+      "pass": true
+    },
+    {
+      "check": "Stored Total BOE and existing live FlowField preserved",
+      "pass": true
+    },
+    {
+      "check": "Numeric object IDs unique and within assigned range",
+      "pass": true
+    },
+    {
+      "check": "No client-owned table IDs 70012-70014 declared",
+      "pass": true
+    },
+    {
+      "check": "No DataClassification on any FlowField",
+      "pass": true
+    },
+    {
+      "check": "Reservoir has lookup, drill-down and dropdown field group",
+      "pass": true
+    },
+    {
+      "check": "Reservoir list opens Reservoir Card",
+      "pass": true
+    },
+    {
+      "check": "Reservoir/header dimensions no longer use fixed dimension-name constants",
+      "pass": true
+    },
+    {
+      "check": "All seven dimension selectors use setup-driven lookup and validation",
+      "pass": true
+    },
+    {
+      "check": "Dimension lookup filters Standard and unblocked values",
+      "pass": true
+    },
+    {
+      "check": "Modal dimension lookup does not take a header update lock",
+      "pass": true
+    },
+    {
+      "check": "Draft header and lines have conditional editing and parent refresh",
+      "pass": true
+    },
+    {
+      "check": "Live BOE total is a FlowField and immutable total is separate",
+      "pass": true
+    },
+    {
+      "check": "Current setup template displayed only on open documents",
+      "pass": true
+    },
+    {
+      "check": "Older drafts can refresh missing defaults without replacing overrides",
+      "pass": true
+    },
+    {
+      "check": "ProductionEntryList.Page.al is locked history",
+      "pass": true
+    },
+    {
+      "check": "PostedProductionCard.Page.al is locked history",
+      "pass": true
+    },
+    {
+      "check": "Open work queue filters out sent history",
+      "pass": true
+    },
+    {
+      "check": "FieldOperatorRoleCenter.Page.al has separate open and history routes",
+      "pass": true
+    },
+    {
+      "check": "OGAccountantRoleCenter.Page.al has separate open and history routes",
+      "pass": true
+    },
+    {
+      "check": "Operator New opens Create mode",
+      "pass": true
+    },
+    {
+      "check": "Operator can read setup / reservoir and execute lookups",
+      "pass": true
+    },
+    {
+      "check": "Operator receives no production posting codeunit or item-journal write permission",
+      "pass": true
+    },
+    {
+      "check": "Header and line Insert/Modify/Delete/Rename database guards present",
+      "pass": true
+    },
+    {
+      "check": "Data guards use stored state, update locks, and no RunTrigger bypass",
+      "pass": true
+    },
+    {
+      "check": "Temporary records are exempt from production-history guards",
+      "pass": true
+    },
+    {
+      "check": "Marking sent requires matching journal template/batch/document",
+      "pass": true
+    },
+    {
+      "check": "Journal gets full template/batch/line key and standard validations",
+      "pass": true
+    },
+    {
+      "check": "Journal numbering scopes template and batch and appends by 10000",
+      "pass": true
+    },
+    {
+      "check": "Posting persists calculation and locks the source at the end",
+      "pass": true
+    },
+    {
+      "check": "Posting uses header dimension overrides and records snapshot",
+      "pass": true
+    },
+    {
+      "check": "Standard default dimensions merged; shortcut dimensions validated",
+      "pass": true
+    },
+    {
+      "check": "BS&W receipt is gross; separate loss uses positive difference",
+      "pass": true
+    },
+    {
+      "check": "BS&W expense routing is setup-driven, not an account literal",
+      "pass": true
+    },
+    {
+      "check": "History dimension/template actions do not substitute current setup",
+      "pass": true
+    },
+    {
+      "check": "Pending batches filtered by configured template and non-empty lines",
+      "pass": true
+    },
+    {
+      "check": "Setup singleton fix retained",
+      "pass": true
+    },
+    {
+      "check": "No journal auto-post or commits introduced",
+      "pass": true
+    },
+    {
+      "check": "Sample production BOE still 1272 and 1000; BS&W effect is net",
+      "pass": true
+    },
+    {
+      "check": "All AL braces balanced after stripping comments/strings",
+      "pass": true
+    },
+    {
+      "check": "Method catalogue supports client code/description and blocking",
+      "pass": true
+    },
+    {
+      "check": "Reservoir method selection stores a description snapshot",
+      "pass": true
+    },
+    {
+      "check": "Existing Estimated By / Estimation Method text fields unchanged",
+      "pass": true
+    },
+    {
+      "check": "Preparer lookup selects enabled users and stores stable ID",
+      "pass": true
+    },
+    {
+      "check": "Current-user default does not overwrite existing preparer text",
+      "pass": true
+    },
+    {
+      "check": "No account writes in preparer management",
+      "pass": true
+    },
+    {
+      "check": "Both roles receive User read only",
+      "pass": true
+    },
+    {
+      "check": "Recovery factor input limited to 0-100 without computing reserves",
+      "pass": true
+    },
+    {
+      "check": "Revision audit captures selected preparer plus actual editor",
+      "pass": true
+    },
+    {
+      "check": "Audit insertion is indirect for Accountant",
+      "pass": true
+    },
+    {
+      "check": "Native journal template requires Type Item/non-recurring/page 40",
+      "pass": true
+    },
+    {
+      "check": "Both document and pending-batch routes use shared native navigation",
+      "pass": true
+    },
+    {
+      "check": "Native Item Journal page extended, not replaced",
+      "pass": true
+    },
+    {
+      "check": "Core native journal controls available across application areas",
+      "pass": true
+    },
+    {
+      "check": "RDLC is the default rendering layout",
+      "pass": true
+    },
+    {
+      "check": "Production Summary exposes filters and excludes drafts",
+      "pass": true
+    },
+    {
+      "check": "Every RDLC field expression resolves in the layout dataset",
+      "pass": true
+    },
+    {
+      "check": "BOE totals use detail BOE, not repeated header total",
+      "pass": true
+    },
+    {
+      "check": "Raw volume subtotals scoped to item/UOM",
+      "pass": true
+    },
+    {
+      "check": "All RDLC rows include physical placeholders for merged cells",
+      "pass": true
+    },
+    {
+      "check": "RDLC body fits within landscape printable width",
+      "pass": true
+    }
+  ]
+}

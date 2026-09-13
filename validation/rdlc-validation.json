@@ -1,0 +1,8 @@
+{
+  "version": "1.0.13.0",
+  "xsd_valid": true,
+  "scope": "Entity grouping and signed/cancelled source dataset updated; actual BC PDF/print not executed",
+  "schema_url": "https://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition/ReportDefinition.xsd",
+  "previous_html_sample": "ProductionSummary_SAMPLE_v1.0.12.html is historical, not proof of v1.0.13 rendering",
+  "native_bc_rendering": "REQUIRES SANDBOX UAT"
+}

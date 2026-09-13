@@ -1,0 +1,10 @@
+﻿AppliedFilters
+SAMPLE | Sent production only | 15 September 2026
+
+Textbox13,Textbox14,Textbox15,Textbox16,Textbox17,Textbox18,Textbox19,Textbox20,Textbox21,Textbox22,Textbox23,Textbox24,Textbox25,Textbox26,Textbox28,Textbox29,Textbox30,Textbox32,Textbox34
+FIELD  FIELD-01     |     WELL  W-001,15/09/2026,PROD-260915-01,RES-01,CONDENSATE,Condensate,BBL,40,0,0,40,40,Subtotal: CONDENSATE / BBL,40,0,40,40,"1,272","2,272"
+FIELD  FIELD-01     |     WELL  W-001,15/09/2026,PROD-260915-01,RES-01,CRUDE-OIL,Crude oil,BBL,"1,200",4,48,"1,152","1,152",Subtotal: CRUDE-OIL / BBL,"1,200",48,"1,152","1,152","1,272","2,272"
+FIELD  FIELD-01     |     WELL  W-001,15/09/2026,PROD-260915-01,RES-01,NGL,Natural gas liquids,BBL,80,0,0,80,80,Subtotal: NGL / BBL,80,0,80,80,"1,272","2,272"
+FIELD  FIELD-01     |     WELL  W-001,15/09/2026,PROD-260915-01,RES-01,PROD-WATER,Produced water (no BOE conversion),BBL,350,0,0,350,0,Subtotal: PROD-WATER / BBL,350,0,350,0,"1,272","2,272"
+FIELD  FIELD-02     |     WELL  W-002,15/09/2026,PROD-260915-02,RES-02,NATURAL-GAS,Natural gas,MCF,"6,000",0,0,"6,000","1,000",Subtotal: NATURAL-GAS / MCF,"6,000",0,"6,000","1,000","1,000","2,272"
+

@@ -1,0 +1,5 @@
+Reservoir Code,Item No.,Default Unit of Measure Code,Location Code,BS&W Applicable,Blocked
+RES-01,CRUDE-OIL,BBL,LOC-01,Yes,No
+RES-01,NGL,BBL,LOC-01,No,No
+RES-01,CONDENSATE,BBL,LOC-01,No,No
+RES-02,NATURAL-GAS,MCF,LOC-02,No,No

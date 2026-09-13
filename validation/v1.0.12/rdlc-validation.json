@@ -1,0 +1,16 @@
+{
+  "definition_schema": "Microsoft RDL 2008 XSD",
+  "schema_valid": true,
+  "local_renderer": "ReportViewerCore.NETCore 15.1.33 on .NET 8",
+  "sample_data": "Synthetic sample; not a Business Central export",
+  "html5_render": "passed",
+  "csv_render": "passed",
+  "sample_field_1_boe": 1272,
+  "sample_field_2_boe": 1000,
+  "sample_total_boe": 2272,
+  "gas_only_total_boe": 1000,
+  "empty_data_no_rows_message": "passed",
+  "native_BC_server_execution": "NOT RUN",
+  "local_pdf": "Not verified: Linux host lacks Windows usp10.dll / Uniscribe",
+  "native_BC_pdf_print": "Requires sandbox UAT"
+}

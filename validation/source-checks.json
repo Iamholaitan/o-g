@@ -1,0 +1,286 @@
+{
+  "kind": "Static source/schema/logic checks; NOT BC runtime execution",
+  "version": "1.0.13.1",
+  "al_files": 86,
+  "numeric_objects": 84,
+  "passed": 69,
+  "total": 69,
+  "checks": [
+    {
+      "check": "Version 1.0.13.1 / BC 26 / runtime 16 / NoImplicitWith",
+      "pass": true
+    },
+    {
+      "check": "Every prior table and field retains ID/name/type/class",
+      "pass": true
+    },
+    {
+      "check": "Object IDs unique and in assigned range",
+      "pass": true
+    },
+    {
+      "check": "No client-owned tables 70012-70014 declared",
+      "pass": true
+    },
+    {
+      "check": "No DataClassification on FlowFields",
+      "pass": true
+    },
+    {
+      "check": "Modern No. Series API used, configured in O&G Setup",
+      "pass": true
+    },
+    {
+      "check": "Manual new production numbers rejected",
+      "pass": true
+    },
+    {
+      "check": "No number is allocated in a modal lookup/new-record dialog",
+      "pass": true
+    },
+    {
+      "check": "Historical number and source dimensions preserved by data guard",
+      "pass": true
+    },
+    {
+      "check": "Entity uses actual Global Dimension 1, not a hardcoded dimension name",
+      "pass": true
+    },
+    {
+      "check": "Entity mandatory on production send",
+      "pass": true
+    },
+    {
+      "check": "Entity included in production dimension set",
+      "pass": true
+    },
+    {
+      "check": "Legacy Entity not guessed from operator/default setup",
+      "pass": true
+    },
+    {
+      "check": "New source journal lines carry a unique production link",
+      "pass": true
+    },
+    {
+      "check": "Actual native item-ledger insert event tracked",
+      "pass": true
+    },
+    {
+      "check": "Missing journal rows are not treated as proof of ledger posting",
+      "pass": true
+    },
+    {
+      "check": "Native posting transactions are not committed by tracking",
+      "pass": true
+    },
+    {
+      "check": "Only verified fully pending source can be cancelled",
+      "pass": true
+    },
+    {
+      "check": "Cancellation keeps source and audit; does not delete source/ledger records",
+      "pass": true
+    },
+    {
+      "check": "Pending journal deletion protected outside cancellation",
+      "pass": true
+    },
+    {
+      "check": "Partially posted/unknown sources blocked from full reversal",
+      "pass": true
+    },
+    {
+      "check": "Reversal is a new auto-numbered, linked source",
+      "pass": true
+    },
+    {
+      "check": "Reversal retains signed source BOE and immutable original",
+      "pass": true
+    },
+    {
+      "check": "Corrected copy cannot silently duplicate an active replacement",
+      "pass": true
+    },
+    {
+      "check": "Cancellation removes operational BOE without changing posted flag",
+      "pass": true
+    },
+    {
+      "check": "Posted reversals restore BS&W before removing receipts",
+      "pass": true
+    },
+    {
+      "check": "Reversal uses exact original cost-application references",
+      "pass": true
+    },
+    {
+      "check": "Own-loss restoration applications resolved at native posting",
+      "pass": true
+    },
+    {
+      "check": "Tracking/reservations/warehouse/downstream use not bypassed",
+      "pass": true
+    },
+    {
+      "check": "Legacy ledger linking explicit and checks complete gross/loss totals",
+      "pass": true
+    },
+    {
+      "check": "No direct Item Jnl.-Post execution introduced by reversal",
+      "pass": true
+    },
+    {
+      "check": "DepletionWorksheet.Page.al prompt uses a temporary buffer",
+      "pass": true
+    },
+    {
+      "check": "DepletionWorksheet.Page.al uses both From/To and selected rows",
+      "pass": true
+    },
+    {
+      "check": "RoyaltyWorksheet.Page.al prompt uses a temporary buffer",
+      "pass": true
+    },
+    {
+      "check": "RoyaltyWorksheet.Page.al uses both From/To and selected rows",
+      "pass": true
+    },
+    {
+      "check": "No modal calls inside financial writer codeunits",
+      "pass": true
+    },
+    {
+      "check": "Depletion refreshes only same-window unposted drafts",
+      "pass": true
+    },
+    {
+      "check": "Depletion blocks overlapping posted periods",
+      "pass": true
+    },
+    {
+      "check": "Depletion stops stale production snapshots",
+      "pass": true
+    },
+    {
+      "check": "Financial auto-increment PKs reset for each new row",
+      "pass": true
+    },
+    {
+      "check": "General Journal uses standard Amount/Account/Dimension validation",
+      "pass": true
+    },
+    {
+      "check": "General and item journal lines use full template/batch keys",
+      "pass": true
+    },
+    {
+      "check": "Royalty avoids duplicate source-line journalisation",
+      "pass": true
+    },
+    {
+      "check": "In-kind royalty has positive quantity for Negative Adjmt.",
+      "pass": true
+    },
+    {
+      "check": "In-kind royalty expense posting group is setup driven",
+      "pass": true
+    },
+    {
+      "check": "Royalty still includes produced water; no exclusion flag",
+      "pass": true
+    },
+    {
+      "check": "Production reversal does not silently reverse existing financial journals",
+      "pass": true
+    },
+    {
+      "check": "JV ownership uses an effective-dated version",
+      "pass": true
+    },
+    {
+      "check": "Explicit operator interest plus members must total 100",
+      "pass": true
+    },
+    {
+      "check": "No implicit operator remainder/management-fee allocation",
+      "pass": true
+    },
+    {
+      "check": "Operator-only Entity rejected by JV allocator",
+      "pass": true
+    },
+    {
+      "check": "Existing partner masters reused through ownership membership",
+      "pass": true
+    },
+    {
+      "check": "Posted ownership versions immutable for normal maintenance",
+      "pass": true
+    },
+    {
+      "check": "JV rounding assigned to a configured partner, not phantom operator",
+      "pass": true
+    },
+    {
+      "check": "Operator future equity cost has explicit Operator Entity",
+      "pass": true
+    },
+    {
+      "check": "ProductionEntryList.Page.al keeps read-only history and correction actions",
+      "pass": true
+    },
+    {
+      "check": "PostedProductionCard.Page.al keeps read-only history and correction actions",
+      "pass": true
+    },
+    {
+      "check": "Field Operator cannot execute reversal or production posting",
+      "pass": true
+    },
+    {
+      "check": "Posting evidence write access indirect for Accountant",
+      "pass": true
+    },
+    {
+      "check": "No account deletion introduced in user selector",
+      "pass": true
+    },
+    {
+      "check": "Setup singleton fix retained",
+      "pass": true
+    },
+    {
+      "check": "BS&W full reversal example: +48 -1152 -48 equals -1152",
+      "pass": true
+    },
+    {
+      "check": "Production + reversal BOE sum to zero",
+      "pass": true
+    },
+    {
+      "check": "Current 0% operator / 60+40 partner example allocates all cost",
+      "pass": true
+    },
+    {
+      "check": "Zero-operator rounding example allocates full 1.00 to partners",
+      "pass": true
+    },
+    {
+      "check": "Production Summary filters cancellations and exposes Entity",
+      "pass": true
+    },
+    {
+      "check": "RDLC expressions resolve to dataset fields",
+      "pass": true
+    },
+    {
+      "check": "RDLC groups Entity and sums line BOE, not repeated header BOE",
+      "pass": true
+    },
+    {
+      "check": "No explicit COMMIT in correction/worksheet writers",
+      "pass": true
+    }
+  ]
+}
